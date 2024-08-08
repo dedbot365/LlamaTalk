@@ -28,7 +28,7 @@ jobs:
 
       - name: Build the Chainlit app
         run: |
-          chainlit run chat.py --no-watch --output-dir=dist
+          chainlit run chat.py --output-dir=dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
